@@ -19,12 +19,8 @@ fn counting_sort(input: &[usize], mut max: usize) -> Vec<usize> {
 
 }
 
-#[cfg(test)]
-mod test {
-    use super::*;
-    #[test]
-    fn counting() {
-        let arr = [3, 2, 9, 11, 23, 7, 8];
-        assert_eq!(counting_sort(&arr, 23), vec![2, 3, 7, 8, 9, 11, 23]);
-    }
+#[test]
+fn counting_test() {
+    let arr = [3, 2, 9, 11, 23, 7, 8];
+    assert_eq!(counting_sort(&arr, 23), vec![2, 3, 7, 8, 9, 11, 23]);
 }
