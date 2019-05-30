@@ -2,6 +2,7 @@
 
 mod counting;
 mod heapsort;
+mod quicksort;
 fn main() {
     println!("Hello, world!");
     let mut arr = [1, 5, 3, 2, 0];
