@@ -1,5 +1,5 @@
 [package]
-name = "sorting"
+name = "algo-rs"
 version = "0.1.0"
 authors = ["Ankit <ankit28595@gmail.com>"]
 edition = "2018"
