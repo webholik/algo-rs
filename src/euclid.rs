@@ -74,6 +74,7 @@ fn multiplicative_inverse(a: i64, n: i64) -> i64 {
 
 #[test]
 fn multiplicative_inverse_test() {
+    println!("{}", multiplicative_inverse(2, 1000000007));
     assert_eq!(multiplicative_inverse(5, 11), 9);
 }
 
